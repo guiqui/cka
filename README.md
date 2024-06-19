@@ -1,4 +1,4 @@
-# CKA Studu Sheet
+# CKA Study Sheet
 This repo contains a list of curated kubectl,kubeadm,helm and openssl commands to help to study for the CKA exam
 
 ## Table of Contents
