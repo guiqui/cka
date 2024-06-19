@@ -1,37 +1,26 @@
-# Mantine Next.js template
+# CKA Studu Sheet
+This repo contains a list of curated kubectl,kubeadm,helm and openssl commands to help to study for the CKA exam
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
-If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
+## Table of Contents
 
-## Features
+- [Introduction](#introduction)
+- [Commands](#commands)
+  - [kubectl](#kubectl)
+  - [kubeadm](#kubeadm)
+  - [helm](#helm)
+  - [openssl](#openssl)
+- [Contributing](#contributing)
+- [License](#license)
 
-This template comes with the following features:
+## Contributing
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Jest](https://jestjs.io/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+Contributions are welcome! If you have any commands or tips that you'd like to add, please follow these steps:
 
-## npm scripts
+1. Fork the repository.
+2. Update the `data.ts` file with your changes. This file contains a JSON object where you can add new commands or modify existing ones.
+3. Ensure your contributions are well-documented and follow the existing format.
+4. Submit a pull request with a description of your changes.
 
-### Build and dev scripts
+## License
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-
-### Testing scripts
-
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
-
-### Other scripts
-
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
