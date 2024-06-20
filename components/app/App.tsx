@@ -25,7 +25,7 @@ function App() {
         <Group h="100%" px="md">
           <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
           <Flex gap="md" h="100%" justify="flex-start" align="center" direction="row" wrap="nowrap">
-            <Image src={`/logo.png`} alt={'K8Studio Home Page'} width={456} height="40" />
+            <Image src={`/logo.png`} alt={'K8Studio Home Page'} width={285} height="40" />
           </Flex>
         </Group>
       </AppShell.Header>
@@ -33,7 +33,9 @@ function App() {
       <AppShell.Navbar p="md">
         <CKANavigationBar data={commands} />
       </AppShell.Navbar>
-      <AppShell.Main>{<CommandContainer data={commands} />}</AppShell.Main>
+      <AppShell.Main>
+        <CommandContainer data={commands} />
+      </AppShell.Main>
     </AppShell>
   );
 }

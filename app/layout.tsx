@@ -1,7 +1,5 @@
-import '@mantine/core/styles.css';
 import React from 'react';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
-import { theme } from '../theme';
 
 export const metadata = {
   title: 'CKA Kubectl Imperatives Commands',
@@ -12,6 +10,7 @@ export default function RootLayout({ children }: { children: any }) {
   return (
     <html lang="en" style={{ scrollBehavior: 'smooth' }}>
       <head>
+        <ColorSchemeScript defaultColorScheme="dark" />
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
@@ -19,7 +18,7 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider defaultColorScheme="dark">{children}</MantineProvider>
+        <MantineProvider>{children}</MantineProvider>
       </body>
     </html>
   );

@@ -6,7 +6,6 @@ import { useLocation } from 'react-router-dom';
 import { Text, Space } from '@mantine/core';
 export const SectionItem = ({ data, indent = 0 }) => {
   if (!data || data.length == 0 || !data.children) return <div>no section</div>;
-  debugger;
   return (
     <div id={data.anchor} style={{ marginLeft: 10 * indent }}>
       <Text fw={700} size="xl">
