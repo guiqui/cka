@@ -42,3 +42,13 @@
     transform: rotate(360deg);
   }
 }
+
+.sponso-footer{
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 20px);
+  padding:10px
+}
+.sponso-footer:hover{
+  cursor:pointer
+}

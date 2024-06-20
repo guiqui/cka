@@ -3,7 +3,7 @@ import { useState } from 'react';
 import classes from './navigation.module.css';
 
 export function CKANavigationBar(props: any) {
-  const [active, setActive] = useState('Billing');
+  const [active, setActive] = useState('Setting Environement');
 
   const links = props.data.map((item: any) => (
     <a

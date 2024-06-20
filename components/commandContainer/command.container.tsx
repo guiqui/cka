@@ -1,7 +1,6 @@
 //@ts-nocheck
 import { CodeHighlight } from '@mantine/code-highlight';
 import '@mantine/code-highlight/styles.css';
-import { useLocation } from 'react-router-dom';
 
 import { Text, Space } from '@mantine/core';
 export const SectionItem = ({ data, indent = 0 }) => {
