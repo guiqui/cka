@@ -42,6 +42,10 @@ function App() {
           gap="xs"
           onClick={handleClick}
         >
+          <Text size="sm" c="dimmed">
+            Sponsored by{' '}
+          </Text>
+          <Image src={`/k8logo.png`} alt={'K8Studio Home Page'} width={184} height="36" />
           <GitHubButton
             href="https://github.com/guiqui/cka"
             data-color-scheme="no-preference: dark; light: dark; dark: dark;"
@@ -50,10 +54,6 @@ function App() {
           >
             Star
           </GitHubButton>
-          <Text size="sm" c="dimmed">
-            Sponsored by
-          </Text>
-          <Image src={`/k8logo.png`} alt={'K8Studio Home Page'} width={184} height="36" />
         </Stack>
       </AppShell.Navbar>
       <AppShell.Main>
